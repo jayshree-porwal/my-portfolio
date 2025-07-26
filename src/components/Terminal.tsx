@@ -14,10 +14,10 @@ type OutputItem = {
 };
 
 const commands: Record<Exclude<CommandKey, 'projects' | 'ai'>, string> = {
-  hi: `👋 Hello from Nepal!\n🌏 Hola desde Nepal!`,
+  hi: `👋 Hello from India!\n🌏 Hola desde India!`,
   help: 'Available commands: hi, whoami, projects, skills, clear, ai',
-  whoami: `I'm Prajwol Karki, a passionate developer from Nepal specializing in web technologies, automation, and building efficient solutions.`,
-  skills: 'Languages: PHP, JavaScript, TypeScript, React, Node.js, SQL, etc.',
+  whoami: `I'm Mayank Gupta, a passionate developer from India specializing in web technologies, backend systems, and scalable architecture. I focus on building efficient solutions that are robust, maintainable, and performance-driven.`,
+  skills: 'Languages: JavaScript, Node.js, Golang, TypeScript, SQL, Java etc.',
   clear: '',
 };
 const Terminal = () => {
@@ -44,7 +44,7 @@ const Terminal = () => {
   useEffect(() => {
     if (typedRef.current) {
       const typed = new Typed(typedRef.current, {
-        strings: ["Welcome to Prajwol's Portfolio Terminal!<br>Type <span class='text-yellow-400'>help</span> to see available commands."],
+        strings: ["Welcome to Mayank's Portfolio Terminal!<br>Type <span class='text-yellow-400'>help</span> to see available commands."],
         typeSpeed: 40,
         onComplete: () => {
           if (inputRef.current) {
@@ -69,7 +69,7 @@ const Terminal = () => {
 
   const fetchGitHubProjects = async (): Promise<string> => {
     try {
-      const res = await fetch('https://api.github.com/users/prajwolkarki/repos?per_page=100');
+      const res = await fetch('https://api.github.com/users/mayaank-gupta/repos?per_page=100');
       const data = await res.json();
 
       if (!Array.isArray(data)) return 'Failed to fetch projects.';
@@ -89,7 +89,7 @@ const Terminal = () => {
           (repo) =>
             `- <a href="${repo.html_url}" target="_blank" class="underline text-blue-400">${repo.name}</a>: ${repo.description || 'No description'}`
         )
-        .join('<br>')}<br><br>More at <a href="https://github.com/prajwolkarki" class="underline text-blue-400" target="_blank">GitHub</a>.`;
+        .join('<br>')}<br><br>More at <a href="https://github.com/mayaank-gupta" class="underline text-blue-400" target="_blank">GitHub</a>.`;
     } catch {
       return 'Error fetching GitHub projects.';
     }
@@ -145,7 +145,7 @@ const Terminal = () => {
       response = `Command not found: ${baseCmd}. Type <span class="text-yellow-400">help</span>.`;
     }
 
-    setOutput((prev) => [...prev, { command: `prajwol@portfolio:~$ ${cmd}`, response }]);
+    setOutput((prev) => [...prev, { command: `mayank@portfolio:~$ ${cmd}`, response }]);
     setInput('');
     setTimeout(() => {
       outputRef.current?.scrollTo(0, outputRef.current.scrollHeight);
@@ -162,7 +162,7 @@ const Terminal = () => {
           <span className="w-3 h-3 bg-yellow-500 rounded-full" />
           <span className="w-3 h-3 bg-green-500 rounded-full" />
         </div>
-        <span className="ml-4 text-sm">prajwol@portfolio:~$</span>
+        <span className="ml-4 text-sm">mayank@portfolio:~$</span>
         <button
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           className="ml-auto px-2 py-1 text-xs bg-gray-700 text-white rounded hover:bg-gray-600"

@@ -17,7 +17,7 @@ export function HamBurger() {
       </SheetTrigger>
       <SheetContent className="w-50 font-tagesschrift">
         <SheetHeader>
-          <SheetTitle>Prajwol Karki</SheetTitle>
+          <SheetTitle>Mayank Gupta</SheetTitle>
         </SheetHeader>
         {navLinks.map((item, index) => (
           <NavLink

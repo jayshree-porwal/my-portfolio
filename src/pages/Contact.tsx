@@ -194,7 +194,7 @@ export default function ContactForm() {
       <CardFooter className="flex justify-between text-sm text-muted-foreground">
         <div className="flex items-center">
           <Mail className="mr-2 h-4 w-4" />
-          <span>You can also contact me at: prajwolkarki609@gmail.com</span>
+          <span>You can also contact me at: mayankgupta.work@gmail.com</span>
         </div>
       </CardFooter>
     </Card>

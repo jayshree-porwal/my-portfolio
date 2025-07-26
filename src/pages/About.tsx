@@ -28,17 +28,17 @@ export default function About() {
               >
                 <img
                   src="/images/real.png"
-                  alt="Prajwol Karki"
+                  alt="Mayank Gupta"
                   className="object-contain w-full h-full"
                 />
               </div>
-              <h1 className="text-xl sm:text-2xl font-bold text-center">Prajwol Karki</h1>
+              <h1 className="text-xl sm:text-2xl font-bold text-center">Mayank Gupta</h1>
               <p className="text-muted-foreground text-center text-sm sm:text-base">Full Stack Developer</p>
 
               <div className="flex gap-2 mt-4">
                 <Button asChild variant="outline" size="icon" className="rounded-full">
                   <Link
-                    to="https://github.com/prajwolkarki"
+                    to="https://github.com/mayaank-gupta"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
@@ -49,7 +49,7 @@ export default function About() {
                 </Button>
                 <Button asChild variant="outline" size="icon" className="rounded-full">
                   <Link
-                    to="https://www.linkedin.com/in/prajwolkarki/"
+                    to="https://www.linkedin.com/in/xmayank/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -59,7 +59,7 @@ export default function About() {
                   </Link>
                 </Button>
                 <Button asChild variant="outline" size="icon" className="rounded-full">
-                  <Link to="mailto:prajwolkarki609@gmail.com" aria-label="Email">
+                  <Link to="mailto:mayankgupta.work@gmail.com" aria-label="Email">
                     <Mail className="h-4 w-4" />
                     <span className="sr-only">Email</span>
                   </Link>
