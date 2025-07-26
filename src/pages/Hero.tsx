@@ -47,7 +47,7 @@ export default function Hero() {
           <h1 className="text-4xl font-bold">
             <span className="text-gray-500 font-tagesschrift">Hi, I'm </span>
             <span className="bg-gradient-to-r from-fuchsia-600 to-pink-600 text-transparent bg-clip-text font-tagesschrift inline-block w-fit">
-              Prajwol Karki
+              Mayank Gupta
             </span>
           </h1>
           <h2 className="text-lg bg-gradient-to-r from-fuchsia-600 to-pink-600 mt-2 text-transparent bg-clip-text font-bold">
