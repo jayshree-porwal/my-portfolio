@@ -52,9 +52,9 @@ export default function ContactForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    const templateId = "template_9y1fx6q";
+    const templateId = "template_vapd50v";
     emailjs
-      .send("service_699b1pu", templateId, formData, "bEHw6rP7POuaMLuDY")
+      .send("service_1xazbvc", templateId, formData, "X_3F7g2RFQFD6RB65")
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
