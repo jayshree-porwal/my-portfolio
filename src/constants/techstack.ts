@@ -2,13 +2,10 @@
 import { 
     SiTypescript, 
     SiJavascript, 
-    SiNextdotjs, 
-    SiTailwindcss, 
+    SiNodedotjs, 
     SiGit, 
     SiExpress, 
-    SiCss3, 
-    SiMongodb, 
-    SiReact, 
+    SiMongodb,  
     SiMysql, 
     SiPostman 
   } from "react-icons/si";
@@ -27,16 +24,10 @@ const techStack = [
       color: "#F7DF1E"
     },
     {
-      name: "Next.js",
-      description: "React Framework",
-      icon: SiNextdotjs,
+      name: "Node.js",
+      description: "Backend Framework",
+      icon: SiNodedotjs,
       color: "#000000"
-    },
-    {
-      name: "Tailwind CSS",
-      description: "Utility-first CSS",
-      icon: SiTailwindcss,
-      color: "#06B6D4"
     },
     {
       name: "Git",
@@ -51,22 +42,10 @@ const techStack = [
       color: "#000000"
     },
     {
-      name: "CSS",
-      description: "Styling Language",
-      icon: SiCss3,
-      color: "#1572B6"
-    },
-    {
       name: "MongoDB",
       description: "NoSQL Database",
       icon: SiMongodb,
       color: "#47A248"
-    },
-    {
-      name: "React.js",
-      description: "JavaScript Library",
-      icon: SiReact,
-      color: "#61DAFB"
     },
     {
       name: "mySQL",

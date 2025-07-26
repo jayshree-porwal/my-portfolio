@@ -12,7 +12,7 @@ const Header = () => {
             to="/"
             className="bg-gradient-to-r from-fuchsia-600 to-pink-600 text-transparent bg-clip-text text-xl font-medium font-tagesschrift"
           >
-            Jholey Codes
+            Mayank Gupta
           </NavLink>
         </div>
         <div className=" items-center font-tagesschrift md:flex">

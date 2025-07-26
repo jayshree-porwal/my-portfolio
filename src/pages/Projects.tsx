@@ -15,18 +15,18 @@ const projects = [
     description: "A MERN stack blog platform with authentication, post creation/editing, comments, and user profiles.",
     image: "/images/blog.png",
     tags: ["MongoDB", "Express", "NEXT"],
-    liveUrl: "https://blog.prajwolkarki.com.np",
+    liveUrl: "https://simplymayank.com",
     githubUrl: "https://github.com/prajwolkarki/personalblogapp",
     category: "fullstack",
   },
   {
     id: 2,
-    title: "Jholey Codes",
+    title: "Portfolio",
     description: "A Personal Portfolio app made using the React.",
     image: "/images/portfolio.png",
     tags: ["React", "Sanity", "Firebase"," Tailwind CSS","Shadcn UI"],
-    liveUrl: "https://prajwolkarki.com.np",
-    githubUrl: "https://github.com/prajwolkarki/persona",
+    liveUrl: "https://simplymayank.com",
+    githubUrl: "https://github.com/mayaank-gupta/portfolio",
     category: "frontend",
   },
   {
@@ -159,7 +159,7 @@ export default function Projects() {
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">View more of my projects on GitHub</p>
           <Button asChild>
-            <a href="https://github.com/prajwolkarki" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mayaank-gupta" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" />
               Visit My GitHub Profile
             </a>

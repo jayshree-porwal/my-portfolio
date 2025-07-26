@@ -54,12 +54,13 @@ export default function Hero() {
             <span ref={typedRef}></span>
           </h2>
           <p className="text-gray-600 text-left -tracking-wide leading-5 font-serif mt-4 max-w-md dark:text-white">
-            I transform ideas into elegant web experiences through code. Like a
-            modern-day wizard, I blend technical expertise with creative vision
-            to build applications that solve real problems while delighting
-            users. My work combines thoughtful design with powerful
-            functionality, creating digital solutions that leave a lasting
-            impact in an ever-evolving technological landscape.
+            Results-driven Software Engineer with 8+ years of experience
+            building scalable backend and cloud-native systems using Golang,
+            Node.js, and modern DevOps practices. Proven track record in
+            reducing latency, improving performance, and cutting costs across
+            fintech, insurance, and cybersecurity domains. Passionate about
+            clean architecture, system integration, and delivering reliable,
+            compliant solutions.
           </p>
         </div>
         <div className="mt-6 md:mt-0 md:order-1 md:mr-8 ">
