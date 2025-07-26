@@ -11,10 +11,10 @@ export default function Hero() {
   useEffect(() => {
     const options = {
       strings: [
-        "Web developer",
-        "React JS developer",
-        "Next.JS developer",
-        "MERN developer",
+        "Lead Backend Engineer",
+        "Golang Developer",
+        "Node.Js Developer",
+        "Database Engineer",
       ],
       typeSpeed: 80,
       backSpeed: 50,

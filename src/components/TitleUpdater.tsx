@@ -8,17 +8,17 @@ const TitleUpdater = () => {
     const path = location.pathname;
 
     if (path === "/") {
-      document.title = "JholeyCode | Home";
+      document.title = "SimplyMayank | Home";
     } else if (path === "/about") {
-      document.title = "JholeyCode | About";
+      document.title = "SimplyMayank | About";
     } else if (path === "/contact") {
-      document.title = "JholeyCode | Contact";
+      document.title = "SimplyMayank | Contact";
     } else if (path === "/blogs") {
-      document.title = "JholeyCode | Blogs";
+      document.title = "SimplyMayank | Blogs";
     } else if (path === "/projects") {
-      document.title = "JholeyCode | Projects";
+      document.title = "SimplyMayank | Projects";
     } else {
-      document.title = "JholeyCode";
+      document.title = "SimplyMayank";
     }
   }, [location]);
 
