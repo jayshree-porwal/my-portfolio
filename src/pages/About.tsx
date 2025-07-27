@@ -68,7 +68,7 @@ export default function About() {
 
               <div className="w-full mt-8 flex justify-center">
                 <Link
-                  to="https://www.overleaf.com/read/qfkhmkvszdwv#d5276a"
+                  to="https://drive.google.com/file/d/1TPWmKGUie0m6LIBlcG2Zzb3EV-djbCcx/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
