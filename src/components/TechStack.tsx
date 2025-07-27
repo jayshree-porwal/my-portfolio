@@ -24,8 +24,8 @@ const TechCard = ({ tech, index }: { tech: any; index: number }) => {
   
 
 const TechStack = () => {
-  const firstRow = techStack.slice(0, 6);
-  const secondRow = techStack.slice(6);
+  const firstRow = techStack.slice(0, 8);
+  const secondRow = techStack.slice(8);
 
   return (
     <div className="relative flex w-full flex-col mt-5 items-center justify-center overflow-hidden h-auto gap-4 py-4">
