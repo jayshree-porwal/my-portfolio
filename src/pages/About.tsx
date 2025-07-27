@@ -145,7 +145,7 @@ export default function About() {
                   {/* Experience Items */}
                   {/* Trellix */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
-                    <img src="images/patan.jpg" alt="Patan Multiple Campus" className="w-14 h-14 sm:w-16 sm:h-16 object-cover" />
+                    <img src="images/trellix.png" alt="Patan Multiple Campus" className="w-14 h-14 sm:w-16 sm:h-16 object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
                         Trellix (Formerly McAfee)
@@ -163,7 +163,7 @@ export default function About() {
 
                   {/* Nium */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
-                    <img src="images/kist.jpg" alt="KIST" className="w-14 h-14 sm:w-16 sm:h-16 object-cover" />
+                    <img src="images/nium.jpg" alt="KIST" className="w-14 h-14 sm:w-16 sm:h-16 object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
                         Nium
@@ -179,13 +179,13 @@ export default function About() {
 
                   {/* Servify */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
-                    <img src="images/kist.png" alt="Kaushal English Boarding School" className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover" />
+                    <img src="images/servify.png" alt="Kaushal English Boarding School" className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
                         Servify
                       </h4>
                       <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">Senior Product Engineer | Mumbai MH</p>
-                      <Badge className="w-fit bg-green-600 hover:bg-blue-700 text-white text-xs sm:text-sm">2016-2017</Badge>
+                      <Badge className="w-fit bg-green-600 hover:bg-blue-700 text-white text-xs sm:text-sm">March 2020 - April 2022 </Badge>
                       <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
                         Built scalable backend systems with REST APIs, custom cron schedulers, and internationalization support.
                         Served as youngest module lead, migrated systems to Node.js, and drove AWS-based optimizations.
@@ -195,13 +195,13 @@ export default function About() {
 
                    {/* Qube */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
-                    <img src="images/kist.png" alt="Kaushal English Boarding School" className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover" />
+                    <img src="images/qube.png" alt="Kaushal English Boarding School" className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
                         Qube
                       </h4>
                       <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">Software Developer | Aurangabad MH</p>
-                      <Badge className="w-fit bg-green-600 hover:bg-blue-700 text-white text-xs sm:text-sm">September 2015 - August 2017</Badge>
+                      <Badge className="w-fit bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm">September 2015 - August 2017</Badge>
                       <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
                         Developed payment-integrated websites and deployed live applications with secure user session handling.
                         Worked on third-party API integrations, backend CRUD logic, and real-time performance tuning.
