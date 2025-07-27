@@ -27,7 +27,7 @@ export default function About() {
                 style={{ borderRadius: "38% 62% 42% 58% / 57% 44% 56% 43% " }}
               >
                 <img
-                  src="/images/real.png"
+                  src="/images/real.jpg"
                   alt="Mayank Gupta"
                   className="object-contain w-full h-full"
                 />
@@ -100,26 +100,27 @@ export default function About() {
                   <div>
                     <h2 className="text-xl sm:text-2xl font-bold mb-4 font-tagesschrift">More About Me!!</h2>
                     <p className="text-xs sm:text-sm font-tagesschrift leading-relaxed">
-                      I'm a passionate individual with expertise in various
-                      fields. I enjoy solving complex problems and creating
-                      intuitive, user-friendly experiences.
+                      I'm a passionate software engineer with a broad skill set,
+                      driven by a love for solving complex problems and crafting intuitive,
+                      user-centric solutions.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-lg sm:text-xl font-semibold font-tagesschrift mb-3">My Journey</h3>
                     <p className="dark:text-white font-tagesschrift leading-relaxed mb-4 text-xs sm:text-sm">
-                      My journey in software development began with a curiosity
-                      about how websites work. This curiosity evolved into a
-                      passion for creating digital experiences that solve
-                      real-world problems. Over the years, I've worked on various
-                      projects ranging from e-commerce platforms to content
-                      management systems.
+                      Out of curiosity, I began my development journey—experimenting with code, 
+                      building small applications, and exploring how systems work behind the scenes. 
+                      This curiosity soon evolved into a passion for backend development, 
+                      where I honed my skills in Node.js, API integrations, 
+                      and performance optimization.
                     </p>
                     <p className="dark:text-white font-tagesschrift leading-relaxed text-xs sm:text-sm">
-                      I'm constantly learning and exploring new technologies to
-                      stay at the forefront of web development. When I'm not
-                      coding, you can find me hiking, reading tech blogs, or
-                      experimenting with new programming languages.
+                      Driven by a constant desire to learn, I took on ownership of microservices, 
+                      led complex migrations, and embraced technologies like AWS, Kafka, and Kubernetes. 
+                      Over the years, I've architected and scaled cloud-native systems across fintech,
+                      insurance, and cybersecurity—always guided by curiosity, purpose, and 
+                      the thrill of solving real-world problems. I'm constantly learning and 
+                      exploring new technologies to stay at the forefront of software engineering.
                     </p>
                   </div>
                   <div>
