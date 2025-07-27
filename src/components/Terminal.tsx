@@ -186,7 +186,7 @@ const Terminal = () => {
 
       <div className={`flex items-center p-2 ${theme === 'dark' ? 'bg-gray-900' : 'bg-gray-100'}`}>
         <span className={`mr-2 ${theme === 'dark' ? 'text-green-400' : 'text-gray-800'} truncate`}>
-          prajwol@portfolio:~$
+          mayank@portfolio:~$
         </span>
         <input
           ref={inputRef}

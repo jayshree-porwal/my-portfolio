@@ -33,7 +33,7 @@ export default function About() {
                 />
               </div>
               <h1 className="text-xl sm:text-2xl font-bold text-center">Mayank Gupta</h1>
-              <p className="text-muted-foreground text-center text-sm sm:text-base">Full Stack Developer</p>
+              <p className="text-muted-foreground text-center text-sm sm:text-base">Software Engineer</p>
 
               <div className="flex gap-2 mt-4">
                 <Button asChild variant="outline" size="icon" className="rounded-full">
@@ -91,7 +91,7 @@ export default function About() {
                   <User className="mr-2 h-4 w-4" /> About Me
                 </TabsTrigger>
                 <TabsTrigger value="code" className="flex items-center text-xs sm:text-base">
-                  <University className="mr-2 h-4 w-4" /> Education
+                  <University className="mr-2 h-4 w-4" /> Experience
                 </TabsTrigger>
               </TabsList>
 
@@ -139,56 +139,75 @@ export default function About() {
 
               <TabsContent value="code" className="mt-2">
                 <div className="flex flex-col space-y-3 mt-7">
-                  <h1 className="font-tagesschrift text-xl sm:text-2xl mb-3">Education</h1>
-                  <p className="text-slate-600 text-xs sm:text-sm font-roboto-mono">Academic Experiences That Defined Me</p>
+                  <h1 className="font-tagesschrift text-xl sm:text-2xl mb-3">Experience</h1>
+                  <p className="text-slate-600 text-xs sm:text-sm font-roboto-mono">Experiences That Shaped My Professional Growth</p>
 
-                  {/* Education Items */}
-                  {/* Patan Multiple Campus */}
+                  {/* Experience Items */}
+                  {/* Trellix */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
                     <img src="images/patan.jpg" alt="Patan Multiple Campus" className="w-14 h-14 sm:w-16 sm:h-16 object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
-                        Patan Multiple Campus
+                        Trellix (Formerly McAfee)
                       </h4>
                       <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">
-                        Bachelor In Information Technology
+                        Senior Software Engineer (SDE-2) | Bangalore KA
                       </p>
-                      <Badge className="w-fit bg-red-600 hover:bg-blue-700 text-white text-xs sm:text-sm">2020-2025</Badge>
+                      <Badge className="w-fit bg-red-600 hover:bg-blue-700 text-white text-xs sm:text-sm">August 2023 - Present</Badge>
                       <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
-                        Currently studying Information Technology
+                        Led critical migrations of legacy systems to cloud-native infrastructure using Golang, Node.js, and Kubernetes. 
+                        Improved system performance, reduced latency, enabled IPv6 readiness, and mentored junior developers.
                       </p>
                     </div>
                   </div>
 
-                  {/* KIST College */}
+                  {/* Nium */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
                     <img src="images/kist.jpg" alt="KIST" className="w-14 h-14 sm:w-16 sm:h-16 object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
-                        Kathmandu Institute of Science and Technology
+                        Nium
                       </h4>
-                      <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">+2 Science</p>
-                      <Badge className="w-fit bg-yellow-600 hover:bg-blue-700 text-white text-xs sm:text-sm">2018-2019</Badge>
+                      <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">Senior Software Engineer | Mumbai MH</p>
+                      <Badge className="w-fit bg-yellow-600 hover:bg-blue-700 text-white text-xs sm:text-sm">March 2020 - April 2022</Badge>
                       <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
-                        Completed +2 Science with Computer Science from KIST
+                        Delivered secure fintech microservices using Node.js and Java, integrating KYC/AML and banking APIs.
+                        Enhanced observability, system reliability, and led technical initiatives across cross-functional teams.
                       </p>
                     </div>
                   </div>
 
-                  {/* Kaushal English Boarding School */}
+                  {/* Servify */}
                   <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
                     <img src="images/kist.png" alt="Kaushal English Boarding School" className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover" />
                     <div className="flex flex-col gap-1">
                       <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
-                        Kaushal English Boarding School
+                        Servify
                       </h4>
-                      <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">Secondary Education</p>
+                      <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">Senior Product Engineer | Mumbai MH</p>
                       <Badge className="w-fit bg-green-600 hover:bg-blue-700 text-white text-xs sm:text-sm">2016-2017</Badge>
                       <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
-                        Completed SEE from Kaushal English Boarding School
+                        Built scalable backend systems with REST APIs, custom cron schedulers, and internationalization support.
+                        Served as youngest module lead, migrated systems to Node.js, and drove AWS-based optimizations.
                       </p>
                     </div>
                   </div>
+
+                   {/* Qube */}
+                  <div className="flex flex-col sm:flex-row gap-4 items-start p-4 rounded-lg bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700">
+                    <img src="images/kist.png" alt="Kaushal English Boarding School" className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover" />
+                    <div className="flex flex-col gap-1">
+                      <h4 className="font-bold tracking-tight text-base sm:text-lg text-slate-900 dark:text-white">
+                        Qube
+                      </h4>
+                      <p className="text-slate-700 dark:text-slate-300 text-xs sm:text-sm">Software Developer | Aurangabad MH</p>
+                      <Badge className="w-fit bg-green-600 hover:bg-blue-700 text-white text-xs sm:text-sm">September 2015 - August 2017</Badge>
+                      <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
+                        Developed payment-integrated websites and deployed live applications with secure user session handling.
+                        Worked on third-party API integrations, backend CRUD logic, and real-time performance tuning.
+                      </p>
+                    </div>
+                  </div>                  
                 </div>
               </TabsContent>
             </Tabs>
